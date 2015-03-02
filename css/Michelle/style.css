@@ -75,8 +75,8 @@ CUSTOM STYLES
         margin: 0 auto;
         text-align: center;
         max-width: 600px;
-        background: #086A87;
-        font-family: 'Courier', Courier, monospace;
+        background: #a5a5a5;
+        font-family: 'Roboto Slab', serif;
         font-weight: 300;
         color: white;
     }
@@ -176,7 +176,7 @@ CUSTOM STYLES
         top: 180px;
     }
     .topBorder	{
-        background: #086A87;
+        background: #a5a5a5;
         z-index: -3;
         width: 610px;
         height: 620px;
@@ -205,6 +205,12 @@ CUSTOM STYLES
     #Instagram {
         color: #FFFFAD;
     }
+    #Pinterest  {
+        color: #99FF99;
+    }
     #Twitter  {
         color: #FFC2A3;
+    }
+    #CGSociety  {
+        color: #FFADD6;
     }
