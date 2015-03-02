@@ -1,0 +1,169 @@
+* {
+  padding: 0;
+  margin: 0
+}
+body {
+  margin: 30px;
+  font-size: 18px;
+  font-family: 'Montserrat', Arial, sans-serif;
+  background: #3498db;
+  color: #222;
+}
+a, a:visited {
+  color: #333;
+  -webkit-transition: .5s all;
+  -moz-transition: .5s all;
+  -webkit-transition: .5s all;
+  text-decoration: none;
+}
+a:hover {
+  color: #666;
+}
+p a {
+  border-bottom: 2px solid #333;
+}
+p a:hover {
+  background: #333;
+  color: white;
+}
+p span {
+  color: #3498db;
+}
+h1, h2, h3 {
+  text-transform: uppercase;
+  color: white;
+  font-weight: 100;
+  letter-spacing: 4px;
+}
+
+img.me {
+  width: 300px; 
+  margin: 30px auto; 
+  display: block; 
+  border-radius: 50%;
+
+}
+img.me.top-right {
+  width: 150px; 
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  margin: 0;
+}
+img.me.bottom-left {
+  width: 150px; 
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  margin: 0;
+}
+
+h1 {
+  font-size: 50px;
+}
+h2 {
+  font-size: 42px;
+}
+h3 {
+  font-size: 36px;
+}
+h4 {
+  font-size: 30px;
+}
+h5 {
+  font-size: 24px;
+}
+h6 {
+  font-size: 18px;
+}
+hr {
+  margin: 2em 0;
+}
+p {
+  line-height: 170%;
+}
+.intro p {
+  font-size: 20px;
+}
+.content {
+  max-width: 620px;
+  margin: 0 auto;
+  
+}
+.contact {
+  padding: 20px 0 10px;
+}
+.contact li {
+  list-style-type: none;
+  display: inline;
+  padding-right: 10px;
+}
+.center {
+  text-align: center;
+}
+
+.btn {
+  background: #333;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  width: 30%;
+  display: inline-block;
+  box-sizing: border-box;
+  margin: 8px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.btn:hover, .btn.active {
+  background: #666;
+  color: white;
+}
+.intro a.btn {
+  width: auto;
+  font-size: 12px;
+  margin-bottom: 20px;
+  color: white
+}
+.buttons {
+  margin: 30px 0 0;
+}
+#about, #current, #seeking {
+  display: none;
+  opacity: 1;
+  margin: 20px 10px;
+  background: white;
+  padding: 20px;
+}
+
+footer {
+  position: relative;
+  bottom: 10px;
+  margin: 30px auto 0;
+  width: 180px;
+}
+
+ol.bjqs-markers.h-centered {
+display: none;
+}
+
+#banner-fade {
+  margin-top: 30px;
+}
+
+ul.bjqs-controls.v-centered li a {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+p.bjqs-caption {
+    background: rgba(255,255,255,0.7)
+}
+
+@media (max-width: 967px) {
+  img.me.top-right, 
+  img.me.bottom-left {
+    display: none;
+  }
+  .btn {
+    width: 100%
+  }
+}
