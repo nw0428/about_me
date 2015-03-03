@@ -5,15 +5,25 @@
 body {
   margin: 30px;
   font-size: 18px;
-  font-family: 'Montserrat', Arial, sans-serif;
+  font-family: 'Open Sans', Arial, sans-serif;
   background: #3498db;
+  color: #444;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Montserrat', Arial, sans-serif;
   color: #222;
 }
 a, a:visited {
   color: #333;
-  -webkit-transition: .5s all;
-  -moz-transition: .5s all;
-  -webkit-transition: .5s all;
+}
+a,
+a:visited,
+span.rand,
+h5 span.rand,
+h3 span.madlibs {
+  -webkit-transition: .25s all;
+  -moz-transition: .25s all;
+  -webkit-transition: .25s all;
   text-decoration: none;
 }
 a:hover {
@@ -22,12 +32,37 @@ a:hover {
 p a {
   border-bottom: 2px solid #333;
 }
-p a:hover {
+p a:hover, {
   background: #333;
   color: white;
 }
-p span {
+span.rand {
   color: #3498db;
+  cursor: pointer;
+}
+span.rand:hover {
+  background-color: #3498db;
+  color: white;
+}
+h5 span.rand, {
+  color: #222;
+  cursor: pointer;
+  border-bottom: 2px solid #222
+}
+h5 span.rand:hover {
+  background-color: #222;
+  color: #3498db;
+  border-bottom: 2px solid #222
+}
+h3 span.madlibs {
+  color: #fff;
+  cursor: pointer;
+  border-bottom: 2px solid #fff
+}
+h3 span.madlibs:hover {
+  background-color: #fff;
+  color: #3498db;
+  border-bottom: 2px solid #fff
 }
 h1, h2, h3 {
   text-transform: uppercase;
@@ -115,8 +150,8 @@ p {
   cursor: pointer;
 }
 .btn:hover, .btn.active {
-  background: #666;
-  color: white;
+  color: #333;
+  background: white;
 }
 .intro a.btn {
   width: auto;
@@ -127,12 +162,18 @@ p {
 .buttons {
   margin: 30px 0 0;
 }
+.buttons a.btn {
+  margin: 0;
+  width: 31.8%;
+  border-radius: 4px 4px 0 0;
+}
 #about, #current, #seeking {
   display: none;
   opacity: 1;
-  margin: 20px 10px;
+  margin: 0px 10px;
   background: white;
   padding: 20px;
+  min-height: 210px;
 }
 
 footer {
