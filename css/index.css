@@ -95,13 +95,6 @@ body {
 	overflow: hidden; 
 }
 
-<<<<<<< HEAD
-footer {
-  margin-top: 2em;
-  background: red;
-}
-=======
 @media (max-width: 767px) {
 	h1 { font-size: 28px; margin-left: -168px; padding: .5em 1em; top: -35px;}
 }
->>>>>>> master
