@@ -1,0 +1,72 @@
+a { 
+	text-decoration: none;
+}
+
+li{
+	list-style: none;
+}
+
+.portfolio{
+	padding-top: 55px;
+	text-align: center;
+	font-family: helvetica;
+}
+
+/**************************
+*HEADER
+**************************/
+
+header{
+	background: url('http://dash.ga.co/assets/jeff-bg.png');
+	text-align: center;
+	padding: 5px 0 0 0;
+}
+
+nav{
+	background: rgba(0,0,0,0.5);
+}
+
+nav a{
+	font-weight: 800;
+	padding: 15px 10px;
+}
+
+nav ul{
+	padding: 0;
+}
+
+nav li{
+	display: inline-block;
+	padding: 10px;
+}
+
+nav a, h1, h2{
+	color: #fff;
+}
+
+section > ul a{
+	text-align: center;
+	padding-right: 30px;
+}
+
+.wrapper{
+	text-align: center;
+}
+
+.wrapper > img{
+	width: 200px;
+	height: 250px;
+	border-radius: 150px;
+}
+
+input{
+	border: 10;
+	padding: 10px;
+	font-size: 18px;
+}
+
+input[type="submit"]{
+	background: red;
+	color: white;
+}
+
