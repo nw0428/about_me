@@ -6,7 +6,7 @@ body {
   margin: 30px;
   font-size: 18px;
   font-family: 'Open Sans', Arial, sans-serif;
-  background: #3498db;
+  background: #00ceff;
   color: #444;
 }
 h1,h2,h3,h4,h5,h6 {
@@ -37,11 +37,11 @@ p a:hover, {
   color: white;
 }
 span.rand {
-  color: #3498db;
+  color: #00ceff;
   cursor: pointer;
 }
 span.rand:hover {
-  background-color: #3498db;
+  background-color: #00ceff;
   color: white;
 }
 h5 span.rand, {
@@ -51,7 +51,7 @@ h5 span.rand, {
 }
 h5 span.rand:hover {
   background-color: #222;
-  color: #3498db;
+  color: #00ceff;
   border-bottom: 2px solid #222
 }
 h3 span.madlibs {
@@ -61,7 +61,7 @@ h3 span.madlibs {
 }
 h3 span.madlibs:hover {
   background-color: #fff;
-  color: #3498db;
+  color: #00ceff;
   border-bottom: 2px solid #fff
 }
 h1, h2, h3 {
