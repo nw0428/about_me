@@ -1,5 +1,6 @@
 body {
 	background: #3A4042;
+	font-family: 'Helvetica', serif; 
 }
 
 .reamde {
@@ -20,4 +21,8 @@ footer {
 
 .profile-photo {
 	width: 50%;
+}
+
+.info {
+	font-family: "Comic Sans","Comic Sans MS","Chalkboard","ChalkboardSE-Regular","Marker Felt","Purisa","URW Chancery L",cursive,sans-serif;
 }
