@@ -1,0 +1,28 @@
+body {
+	background: #3A4042;
+	font-family: 'Helvetica', serif; 
+}
+
+.reamde {
+  text-align: center;
+}
+.center {
+  margin: 0 auto;
+  float: none;
+}
+
+footer {
+  margin-top: 2em;
+  background: #727C80;
+}
+.profile {
+	float: right;
+}
+
+.profile-photo {
+	width: 50%;
+}
+
+.info {
+	font-family: "Comic Sans","Comic Sans MS","Chalkboard","ChalkboardSE-Regular","Marker Felt","Purisa","URW Chancery L",cursive,sans-serif;
+}
