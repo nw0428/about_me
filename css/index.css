@@ -80,8 +80,8 @@ footer {
 	padding-top: 4.5em
 }
 .center {
-  margin: 0 auto;
-  float: none;
+	margin: 0 auto;
+	float: none; 
 }
 
 @media (max-width: 767px) {
