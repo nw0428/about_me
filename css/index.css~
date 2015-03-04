@@ -9,7 +9,7 @@ body {
 	color: #000;
 }
 .center {
-	width: 30%;
+	width: 80%;
 	max-width: 1260px;
 	min-width: 780px;
 	background: #D8D8D8;

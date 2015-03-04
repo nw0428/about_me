@@ -1,18 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<center>
 <title>Super Exciting List of About ME pages</title>
   <link rel="stylesheet" href="css/index.css" type="text/css">
-</center>
 </head>
 <body>
-<center>
   <div class="center">
     <h1> Spring 2015!</h1>
     <li><a href="david.html">David Zabner's page</a></li>
 	<li><a href="Michelle.html">Michelle Rooy's page</a></li>
   </div>
-</center>
 </body>
 </html>
