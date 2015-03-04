@@ -37,11 +37,11 @@ p a:hover, {
   color: white;
 }
 span.rand {
-  color: #00ceff;
+  color: #ff003e;
   cursor: pointer;
 }
 span.rand:hover {
-  background-color: #00ceff;
+  background-color: #ff003e;
   color: white;
 }
 h5 span.rand, {
@@ -51,7 +51,7 @@ h5 span.rand, {
 }
 h5 span.rand:hover {
   background-color: #222;
-  color: #00ceff;
+  color: #ff003e;
   border-bottom: 2px solid #222
 }
 h3 span.madlibs {
@@ -159,6 +159,10 @@ p {
   margin-bottom: 20px;
   color: white
 }
+.intro a.btn:hover {
+  background: #fff;
+  color: #333;
+}
 .buttons {
   margin: 30px 0 0;
 }
@@ -204,7 +208,12 @@ p.bjqs-caption {
   img.me.bottom-left {
     display: none;
   }
-  .btn {
-    width: 100%
+  .buttons a.btn {
+    width: 100%;
+    border-radius: 0;
   }
+  .buttons {
+    margin: 30px 10px 0;
+  }
+  
 }
