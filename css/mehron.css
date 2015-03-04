@@ -62,8 +62,9 @@ html {
   font-family: 'Myriad Pro', 'sans', 'sans-serif';
   color: ;
 }
-h1 {
-  color: rgba(128,0,0,0.8);
+h1,h2 {
+  color: white;
+  text-align: center;
 }
 
 p,h1,h2,h3,li,a {
@@ -82,4 +83,11 @@ p {
 }
 p.ascii {
   font-family: courier;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
 }
