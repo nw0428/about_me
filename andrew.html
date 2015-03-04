@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+
+<head>
+<link href='http://fonts.googleapis.com/css?family=Montserrat:100,400,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<link href="css/andrew/style.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="css/andrew/bjqs.css">
+<link rel="stylesheet" href="css/andrew/demo.css">
+</head>
+
+  <body>
+    
+    <div class="content">
+    
+      <div class="intro center">
+
+        <a class="btn" href="index.html"><i class="fa fa-home fa-lg"></i>&nbsp;&nbsp; Home</a>
+
+        <h1>Andrew Borstein</h1>
+        <h5>He's a person. Yep.</h5>
+
+        <img src="img/andrew/me1.jpg" alt="Andrew Borstein" title="Andrew Borstein" class="me">
+        <img src="img/andrew/me2.jpg" alt="Andrew Borstein" title="Andrew Borstein" class="me top-right">
+        <img src="img/andrew/me3.jpg" alt="Andrew Borstein" title="Andrew Borstein" class="me bottom-left">
+
+        <h6>If at first you don't succeed, git push -f.</h6>    
+
+      </div>
+
+      <hr>
+
+      <h3 class="center">Click to <span class="madlibs">learn more</span></h3>
+
+      <div class="buttons center">
+        <a class="btn about">About</a>
+        <a class="btn current">Currently</a>
+        <a class="btn seeking">Seeking</a>
+      </div>
+    
+      <div class="toggles">
+        <div id="about">
+          <p>          
+          I've always sought out opportunities and challanges that are <span class="rand">meaningful</span> to me. 
+          Although my professional path has taken many twists and <span class="rand">turns</span> --  
+          from touring and <span class="rand">recording</span> artist, to employee of the year at a <span class="rand">non-profit</span>, 
+          to Dean's <span class="rand">scholar</span> at UPenn, to small <span class="rand">business</span> owner and entrepreneur --  
+          I've never stopped engaging my passion to help <span class="rand">others</span> and solve <span class="rand">problems</span>.
+          </p>
+        </div>
+
+        <div id="current">
+          <p>
+          I'm currently enrolled in the <span class="rand">web dev</span> track at Startup Institute, 
+          a selective eight week immersive <span class="rand">program</span> that helps individuals to develop the skills, mindset, 
+          and <span class="rand">skills</span> to be high-impact at a high-growth <span class="rand">startup</span>. 
+          Before this, I had been producing dozens of <span class="rand">satisfied</span> clients running my own 
+          web design and development company called <span class="rand">Brownborg</span> Studios. 
+          I also make an award winning Belgian Pale <span class="rand">Ale</span>.
+          </p> 
+        </div>
+
+        <div id="seeking">
+          <p>
+          As a web developer, I hope to use my obsessive attention to <span class="rand">detail</span>, my unequivocal love for 
+          making <span class="rand">things</span>, and my mission-driven work ethic to literally change the <span class="rand">world</span>. 
+          That's why I'm excited make an <span class="rand">impact</span> at a high growth startup. 
+          I want to make things that make a <span class="rand">difference</span>.
+          </p>
+        </div>
+      </div>
+
+      <hr>
+
+      <div id="banner-fade">
+
+        <ul class="bjqs">
+          <li><img src="img/andrew/kitten1.jpg" title="This kitty loves to LOL."></li>
+          <li><img src="img/andrew/kitten2.jpg" title="Meow meow meow meow."></li>
+          <li><img src="img/andrew/kitten3.jpg" title="I'm definitely a cat."></li>
+        </ul>
+
+      </div>
+
+      <footer>
+        <ul class="contact">
+          <li><a href="mailto:andrew@andrewborstein.com" title="Email Andrew"><i class="fa fa-lg fa-envelope"></i></a></li>
+          <li><a href="http://github.com/andrewborstein" target="_blank" title="Github Profile"><i class="fa fa-lg fa-github"></i></a></li>
+          <li><a href="http://linkedin.com/in/andrewborstein" target="_blank" title="LinkedIn Profile"><i class="fa fa-lg fa-linkedin"></i></a></li>
+          <li><a href="http://andrewborstein.com/" target="_blank" title="Resume"><i class="fa fa-lg fa-user"></i></a></li>
+          <li><a href="http://brownborgstudios.com/" target="_blank" title="Brownborg Studios"><i class="fa fa-lg fa-globe"></i></a></li>
+        </ul>
+      </footer>
+
+    </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="js/andrew/randomword.js"></script>
+  <script src="js/andrew/slider.js"></script>
+
+  <script>
+  
+  function randomWord() {
+    return word = wordList[Math.floor(Math.random()*wordList.length)];
+  }
+
+    $( document ).ready(function() {
+
+      $('#about').show();
+      $('.about').addClass('active');
+      
+      $('.about').click(function(e){
+        e.preventDefault;
+
+        // Active button
+        $(this).addClass('active');
+        $('.current').removeClass('active');
+        $('.seeking').removeClass('active');
+
+        // Display content
+        $('#about').toggle();
+        $('#current').hide();
+        $('#seeking').hide();
+      });
+      $('.current').click(function(e){
+
+        // Active button
+        $(this).addClass('active');
+        $('.about').removeClass('active');
+        $('.seeking').removeClass('active');
+
+        // Display content
+        e.preventDefault;
+        $('#about').hide();
+        $('#current').toggle();
+        $('#seeking').hide();
+      });
+      $('.seeking').click(function(e){
+        e.preventDefault;
+        
+        // Active button
+        $(this).addClass('active');
+        $('.current').removeClass('active');
+        $('.about').removeClass('active');
+
+        // Display content
+        $('#about').hide();
+        $('#current').hide();
+        $('#seeking').toggle();
+      });
+
+      // Reveal text on hover, remove on mouse out
+      $('span.madlibs').mouseover(function() {
+        $(this).text("play madlibs?");
+      })
+      .mouseout(function() {
+        $(this).text("learn more");
+      });
+
+      // When clicking on madlibs link, change all highlighted words to randoms
+      $('span.madlibs').click(function() {
+        $('span.rand').each(function() {
+          $(this).text(randomWord).css("border-bottom", "2px solid #3498db");;
+        });
+      });
+
+      // When clicking on each random word, change it to a new random
+      $('span.rand').each(function() {
+        $(this).click(function(){
+          $(this).text(randomWord);
+        });
+      });
+
+      // Initilialize Slider
+      $('#banner-fade').bjqs({
+        height      : 350,
+        width       : 620,
+        responsive  : true
+      });
+
+    });
+  </script>
+
+  </body>
+</html>
