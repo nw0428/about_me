@@ -67,7 +67,7 @@ h1 {
 }
 
 p,h1,h2,h3,li,a {
-  text-shadow: 3px 3px 3px rgba(0,255,0,0.1);
+  text-shadow: 3px 3px 3px rgba(0,180,0,0.4);
 }
 
 p {
