@@ -79,11 +79,29 @@ footer {
 	position: relative;
 	padding-top: 4.5em
 }
+body {
+	font: 100%/1.4 "Courier", Courier, monospace;
+	background: #086A87;
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
 .center {
-  margin: 0 auto;
-  float: none;
+	width: 30%;
+	max-width: 1260px;
+	min-width: 780px;
+	background: #D8D8D8;
+	margin: 0 auto;
+	overflow: hidden; 
 }
 
+<<<<<<< HEAD
+footer {
+  margin-top: 2em;
+  background: red;
+}
+=======
 @media (max-width: 767px) {
 	h1 { font-size: 28px; margin-left: -168px; padding: .5em 1em; top: -35px;}
 }
+>>>>>>> master
