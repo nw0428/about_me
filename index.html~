@@ -1,6 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<<<<<<< HEAD
+<center>
+<title>Super Exciting List of About ME pages</title>
+  <link rel="stylesheet" href="css/index.css" type="text/css">
+</center>
+</head>
+<body>
+<center>
+  <div class="center">
+    <h1> Spring 2015!</h1>
+    <li><a href="david.html">David Zabner's page</a></li>
+	<li><a href="Michelle.html">Michelle Rooy's page</a></li>
+=======
 <title>SIB Spring 2015 - Web Dev</title>
 <!--
 <link href='http://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
@@ -21,13 +34,14 @@
     	<li><a href="andrew.html">Andrew Borstein</a></li>
     	<li><a href="avonti.html">Avonti Pinder</a></li>
     	<li><a href="gordon.html">Gordon Motsinger</a></li>
-    	<li><a href="mehron.html">Spacetime Lessons with Carl Sagan (via Mehron)</a></li>
+    	<li><a href="mehron.html">Mehron Kugler</a></li>
     	<li><a href="kai/index.html"> Kai's page</a></li>
-    	<li><a href="Michelle.html">Michelle Rooy</a></li>
+    	<li><a href="michelle.html">Michelle Rooy</a></li>
     	<li><a href="nick_e.html">Nick Emmons</a></li>
-    	<li><a href="ron_heerema.html">Ron Heerema</a></li>
-    	<li><a href="nleoutsa.html">Nick Leoutsakos</a></li>
+    	<li><a href="nick_l.html">Nick Leoutsa</a></li>
+    	<li><a href="ron.html">Ron Heerema</a></li>
     </ul>
+>>>>>>> master
   </div>
 </center>
 </body>
