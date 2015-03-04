@@ -136,6 +136,7 @@ section {
 }
 main {
 	overflow-x: hidden;
+  position:relative;
 }
 #preload {
 	width: 1px;
@@ -144,6 +145,12 @@ main {
 	position: absolute;
 	top: 0;
 	left: 0;
+}
+.back{
+  z-index: 1;
+  position: fixed;
+  top: 25;
+  left: 25;
 }
 .bcg {
 	background-position: center center;
@@ -181,7 +188,7 @@ main {
 	}
 	.hsContent a {
 		color: #b2b2b2;
-		text-decoration: underline;
+		text-decoration: none;
 	}
 
 /* Slide 1 */
@@ -221,7 +228,7 @@ main {
 	top: 250px;
 }
 	#slide-4 h2 {
-    color: red;
+    color: blue;
 		background: none;
 		padding-left: 0;
 		padding-right: 0;
@@ -360,7 +367,7 @@ main {
 
     a,
     a:visited {
-        text-decoration: underline;
+        text-decoration: none;
     }
 
     a[href]:after {
