@@ -1,0 +1,36 @@
+.reamde {
+  text-align: center;
+  background: #FFFFFF;
+}
+.container{
+  background: #FFFFFF;
+}
+.row{
+  background: #FFFFFF;
+}
+.span4{
+  background: #FFFFFF;
+}
+.center {
+  margin: 0 auto;
+  float: none;
+}
+footer {
+  padding:2px 5px 25px 20px;
+  background-color: #000000;
+  color: white;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+html, p, h2, li{
+  background-color: #ffffff;
+  color: black;
+  font-family: 'Georgia';
+}
+
+h1 {
+  padding:15px 0px 15px 0px;
+  background-color: #ffffff;
+  color: black;
+  font-family: 'Georgia';
+}

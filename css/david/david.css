@@ -1,0 +1,12 @@
+.reamde {
+  text-align: center;
+}
+.center {
+  margin: 0 auto;
+  float: none;
+}
+
+footer {
+  margin-top: 2em;
+  background: red;
+}
