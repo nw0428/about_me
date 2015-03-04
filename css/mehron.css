@@ -1,0 +1,93 @@
+/* CSS for Mehron Kugler's SI 2015 test page */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+/* CSS Reset 
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers 
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*/
+
+html {
+  background: #000066;
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/b/b1/NGC_2082_Hubble_WikiSky.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  font-family: 'Myriad Pro', 'sans', 'sans-serif';
+  color: ;
+}
+h1,h2 {
+  color: white;
+  text-align: center;
+}
+
+p,h1,h2,h3,li,a {
+  text-shadow: 3px 3px 3px rgba(0,180,0,0.4);
+}
+
+p {
+  color: rgba(255,255,255,0.9);
+  background-color: rgba(0,0,128,0.5);
+  width: 50%;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 0 auto;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+p.ascii {
+  font-family: courier;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
