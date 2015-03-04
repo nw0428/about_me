@@ -1,0 +1,23 @@
+.reamde {
+  text-align: center;
+}
+body {
+	font: 100%/1.4 "Courier", Courier, monospace;
+	background: #086A87;
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+.center {
+	width: 80%;
+	max-width: 1260px;
+	min-width: 780px;
+	background: #D8D8D8;
+	margin: 0 auto;
+	overflow: hidden; 
+}
+
+footer {
+  margin-top: 2em;
+  background: red;
+}
